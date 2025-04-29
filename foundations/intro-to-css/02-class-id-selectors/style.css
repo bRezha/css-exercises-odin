@@ -1,12 +1,7 @@
-/* line 1 */
+/* line 1 & 5*/
 .odd {
   background-color: lightpink;
   font-family: verdana, "Dejavu Sans" sans-serif;
-}
-
-/* line 3 */
-.odd-large-text {
-  font-size: 24px;
 }
 
 /*line 2*/
@@ -15,7 +10,20 @@
   font-size: 36px;
 }
 
+/* line 3 */
+.odd-large-text {
+  font-size: 24px;
+}
 /* line 4 */
+/*
+    In the id selector '#green' below, I could have also
+    added a rule to set the font size to 24px.
+
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
 #green {
   background-color: lightgreen;
   font-weight: bold;
